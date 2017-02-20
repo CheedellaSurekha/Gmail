@@ -24,7 +24,8 @@ public class Rekhagmail {
         dr.findElement(By.xpath(".//*[@id='next']")).click();
         dr.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("rekha406");
         dr.findElement(By.xpath(".//*[@id='signIn']")).click();
-        System.out.println("Gmail account is opened succcessfully");    
+        System.out.println("Gmail account is opened succcessfully");
+        System.out.println("First change checkin for Github");
         dr.close();
 	}
 
